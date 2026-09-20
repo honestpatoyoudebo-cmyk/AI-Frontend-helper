@@ -1,0 +1,32 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.custom-navbar {
+  background: linear-gradient(90deg, #4b0082, #0072ff);
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #4b0082, #0072ff);
+  padding: 100px 20px;
+}
+
+.custom-card {
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.custom-footer {
+  background-color: #212529;
+}
+
+#aiOutput {
+  border-radius: 10px;
+}
